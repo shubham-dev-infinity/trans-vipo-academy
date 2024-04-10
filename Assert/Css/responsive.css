@@ -1,0 +1,635 @@
+@media (min-width:1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* # Desktop Navigation */
+/* --------------------------------------------------------------*/
+
+@media (max-width:1399px) {
+    .best_it_imgaes {
+        height: 610px;
+        object-fit: cover;
+    }
+
+    iframe {
+        width: 560px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .mobile-nav-show,
+    .mobile-nav-hide {
+        display: none;
+    }
+}
+
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+@media (max-width: 1279px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        max-width: 400px;
+        bottom: 0;
+        transition: 0.3s;
+        z-index: 9997;
+    }
+
+    .navbar ul {
+        position: absolute;
+        inset: 0;
+        padding: 80px 0 10px 0;
+        margin: 0;
+        background: rgb(47, 64, 79, 0.9);
+        /* background: rgba(0, 131, 116, 0.9); */
+        overflow-y: auto;
+        transition: 0.3s;
+        z-index: 9998;
+    }
+
+    .navbar a,
+    .navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+        white-space: nowrap;
+        transition: 0.3s;
+    }
+
+    .navbar a i,
+    .navbar a:focus i {
+        font-size: 12px;
+        line-height: 0;
+        margin-left: 5px;
+    }
+
+    .navbar a:hover,
+    .navbar .active,
+    .navbar .active:focus,
+    .navbar li:hover>a {
+        color: #fff;
+    }
+
+    .navbar .getstarted,
+    .navbar .getstarted:focus {
+        background: var(--color-primary);
+        padding: 8px 20px;
+        border-radius: 4px;
+        margin: 15px;
+        color: #fff;
+    }
+
+    .navbar .getstarted:hover,
+    .navbar .getstarted:focus:hover {
+        color: #fff;
+        background: rgba(0, 131, 116, 0.8);
+    }
+
+    .navbar .dropdown ul,
+    .navbar .dropdown .dropdown ul {
+        position: static;
+        display: none;
+        padding: 10px 0;
+        margin: 10px 20px;
+        transition: all 0.5s ease-in-out;
+        background-color: #007466;
+        border: 1px solid #006459;
+    }
+
+    .navbar .dropdown>.dropdown-active,
+    .navbar .dropdown .dropdown>.dropdown-active {
+        display: block;
+    }
+
+    .mobile-nav-show {
+        color: #2F404F;
+        font-size: 28px;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+        z-index: 9999;
+        margin-right: 10px;
+    }
+
+    .mobile-nav-hide {
+        color: #fff;
+        font-size: 32px;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+        position: fixed;
+        right: 20px;
+        top: 6%;
+        z-index: 9999;
+    }
+
+    .mobile-nav-active {
+        overflow: hidden;
+    }
+
+    .mobile-nav-active .navbar {
+        right: 0;
+    }
+
+    .mobile-nav-active .navbar:before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgb(47, 64, 79, 0.8);
+        /* background: rgba(0, 106, 93, 0.8); */
+        z-index: 9996;
+    }
+}
+
+@media (max-width:1199px) {
+
+    .hero h2,
+    .education_text {
+        font-size: 40px;
+    }
+
+    .trans_vipo {
+        font-size: 45px;
+    }
+
+    .best_it_imgaes {
+        height: 677px;
+        object-fit: cover;
+    }
+
+    #leistungen_slider .owl-dots {
+        padding-top: 30px;
+    }
+
+    .business_card ul li {
+        width: 33%;
+    }
+
+    .contact_background {
+        padding: 20px 0px;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
+    .footer_part {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .contact_part {
+        width: 50%;
+        padding-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .footer_trans_vipo {
+        padding: 80px 0px 0px 0px;
+        flex-wrap: wrap;
+    }
+
+    .gallery_inner ul li {
+        padding: 10px;
+    }
+
+    .acquire_it h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:991px) {
+    .kafelki_container {
+        flex-flow: row wrap;
+    }
+
+    .kafelki_item {
+        width: 28%;
+        margin: 15px auto;
+        padding: 16px 15px;
+    }
+
+    .enroll_btn {
+        padding-top: 5px;
+    }
+
+    .welcome_text {
+        margin: 10px 0px 70px 0px;
+    }
+
+    .beyond_text {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .boundaries_text {
+        width: 100%;
+    }
+
+    .enrollments_text {
+        width: 100%;
+    }
+
+    .beyond_text p {
+        width: 100%;
+    }
+
+    .best_training {
+        flex-direction: column;
+    }
+
+    .best_it_img {
+        width: 100%;
+    }
+
+    .best_it_imgaes {
+        height: 100%;
+    }
+
+    .best_training_background {
+        width: 100%;
+    }
+
+    .silder_bg {
+        padding: 50px 0px;
+    }
+
+    .person_img {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .slider_box_1.border_1 {
+        width: 275px;
+        height: 275px;
+        border-radius: 120px 0 120px 0;
+    }
+
+    .slider_box_img {
+        gap: 40px;
+    }
+
+    .slider_title_text p {
+        line-height: 26px;
+        padding-bottom: 20px;
+    }
+
+    #leistungen_slider .owl-dots {
+        padding-top: 50px;
+    }
+
+    .gallery_inner ul li {
+        width: 50%;
+    }
+
+    .map_form {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 600px;
+    }
+
+    .form_bg {
+        width: 100%;
+    }
+
+    .contact_background {
+        background-size: cover;
+    }
+
+    .gallery_inner ul li {
+        padding: 10px 10px;
+    }
+
+    .footer_part {
+        width: 33%;
+    }
+
+    .contact_part {
+        width: 100%;
+    }
+
+    .toast-top-right {
+        top: 78px;
+        right: 12px;
+    }
+}
+
+@media (max-width:767px) {
+    .header .logo img {
+        max-height: 75px;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .inquire_btn {
+        padding: 9px 17px;
+        font-size: 16px;
+    }
+
+    .welcome_text {
+        margin-top: 10px;
+    }
+
+    .kafelki_item {
+        width: 44%;
+        margin: 15px auto;
+    }
+
+    .kafelki_name {
+        font-size: 20px;
+    }
+
+    .boundaries_text {
+        font-size: 25px;
+    }
+
+    .enrollments_text {
+        font-size: 30px;
+    }
+
+    .beyond_text p {
+        font-size: 20px;
+    }
+
+    .slider_box_img {
+        flex-direction: column;
+    }
+
+    .slider_title_text p {
+        text-align: center;
+    }
+
+    .slider_title_text h4 {
+        text-align: center;
+    }
+
+    .acquire_it p {
+        font-size: 20px;
+    }
+
+    .acquire_it h2 {
+        font-size: 28px;
+    }
+
+    .business_card ul li {
+        width: 50%;
+    }
+
+    .blog_title h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .blog_title {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_part {
+        width: 100%;
+    }
+}
+
+@media (max-width:575px) {
+    .topbar {
+        display: none !important;
+    }
+
+    .header .logo img {
+        max-height: 60px;
+    }
+
+    .inquire_btn {
+        padding: 9px 13px;
+        font-size: 14px;
+    }
+
+    .navbar_btn {
+        gap: 14px;
+    }
+
+    .mobile-nav-hide {
+        top: 4.6%;
+    }
+
+    .navbar ul {
+        padding: 60px 0 10px 0;
+    }
+
+    .header.sticked {
+        height: 80px;
+    }
+
+    /* .best_training {
+        margin: 60px 0px;
+    } */
+
+    .best_training_background {
+        padding: 25px;
+    }
+
+    .best_training_background {
+        padding: 25px;
+    }
+
+    .best_text_big {
+        font-size: 18px;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .best_text_space {
+        padding: 10px 0 10px 0;
+    }
+
+    .best_training_btn {
+        padding: 15px 0 0 0;
+    }
+
+    .coaching_center h4 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .coaching_center {
+        padding: 45px 35px;
+        margin-bottom: 45px;
+    }
+
+    .coaching_center_btn {
+        margin: 25px 0 0 0;
+    }
+
+    .with_us h3 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .select_career {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .select_plan_img {
+        padding: 50px 15px;
+    }
+
+    .select_career h4 {
+        font-size: 21px;
+        padding: 0 0 20px 0;
+    }
+
+    .acquire_it {
+        margin: 0px 0 0 0;
+    }
+
+    .gallery_cards {
+        padding: 20px 0 0 0;
+    }
+
+    .gallery {
+        padding-bottom: 40px;
+    }
+
+    .form_bg h3 {
+        font-size: 19px;
+        padding: 20px 0;
+    }
+
+    .gallery_inner ul li {
+        width: 100%;
+    }
+
+    .blog_card_img {
+        width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .header .logo img {
+        max-height: 54px;
+    }
+
+    .inquire_btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .hero h2,
+    .education_text {
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+
+    .trans_vipo {
+        font-size: 32px;
+    }
+
+    .enroll_btn {
+        padding-top: 15px;
+    }
+
+    .header.sticked {
+        height: 65px;
+    }
+
+    .kafelki_item {
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .with_us_btn {
+        padding-top: 25px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .select_career_flex {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .select_career_input {
+        padding-bottom: 20px;
+    }
+
+    .select_career_btn {
+        margin: 55px 0px 0 0;
+    }
+
+    .with_us p {
+        padding-bottom: 20px;
+    }
+
+    .select_career_input input::placeholder {
+        font-size: 14px;
+    }
+
+    .select_career_input textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .business_card ul li {
+        width: 100%;
+    }
+
+    .acquire_it h2 {
+        font-size: 25px;
+    }
+
+    .gallery_text {
+        font-size: 21px;
+    }
+
+    .blog_detalis h5 {
+        font-size: 17px;
+    }
+
+    .reserved_text {
+        font-size: 16px;
+    }
+
+    .beyond_text {
+        margin: 30px 0px 30px 0;
+    }
+}
+
+@media (max-width:350px) {
+    .header {
+        height: 60px;
+    }
+
+    .header .logo img {
+        max-height: 49px;
+    }
+
+    .inquire_btn {
+        padding: 8px 9px;
+        font-size: 13px;
+    }
+}

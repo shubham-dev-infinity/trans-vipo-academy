@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransVipo Tech Academy</title>
+
+    <link rel="shortcut icon" href="Assert/images/favicon.png" type="image/x-icon">
+
+    <!-- -------------------------- font-awesome ----------------------------- -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+        integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- -------------------------- bootstrap ----------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- -------------------------- bootstrap ----------------------------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="Assert/Css/owl.carousel.min.css">
+    <link rel="stylesheet" href="Assert/Css/owl.theme.default.css">
+    <link rel="stylesheet" href="Assert/Css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="Assert/Css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="Assert/Css/aos.css">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <link rel="stylesheet" href="Assert/Css/nice-select.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Assert/Css/style.css">
+    <link rel="stylesheet" href="Assert/Css/responsive.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <style>
+        *::-webkit-scrollbar {
+            display: none;
+        }
+
+        * {
+            scrollbar-width: none;
+            /* Firefox */
+            -ms-overflow-style: none;
+            /* Internet Explorer/Edge */
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="pre-loader">
+        <div class="pre-loader">
+            <span></span>
+            <span></span>
+        </div>
+        <fieldset></fieldset>
+    </div>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <section id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <div class="header_email">
+                    <i class="fa-regular fa-envelope">
+                        <a href="mailto:contact@example.com">transvipotechacademy@gmail.com</a>
+                    </i>
+                </div>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href="#" class="twitter"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="facebook"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Bar -->
+
+    <header id="header" class="header d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="Assert/images/logo 3.png" alt="">
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- .navbar -->
+            <div class="navbar_btn">
+                <a href="#0">
+                    <button class="inquire_btn">inquire now</button>
+                </a>
+                <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark mobile-nav-hide d-none "></i>
+                <!-- <i class=" mobile-nav-toggle mobile-nav-hide d-none fa-solid fa-bars"></i> -->
+                <!-- <i class="mobile-nav-toggle mobile-nav-hide bi bi-x"></i> -->
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+            </div>
+            <!-- <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+        <div class="container position-relative">
+            <div class="row gy-5">
+                <div
+                    class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start welcome_text">
+                    <h2 data-aos="fade-up" data-aos-delay="400">Welcome to <span class="trans_vipo">TransVipo</span>
+                        <span class="education_text">Tech Academy,
+                            Where Innovation Meets
+                            Education.</span>
+                    </h2>
+                    <div class="enroll_btn wow fadeInUp" style="animation-duration: 3s;">
+                        <!-- <a href="#0">
+                            <button>Enroll Now !</button>
+                        </a> -->
+                        <a href="/contact-us"> <span>Enroll Now</span>
+                            <!-- <svg class="right_arrow_1" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none"> <path d="M10.0654 0L9.24183 0.855814L11.749 3.40465H0V4.59535H11.749L9.24183 7.14419L10.0654 8L14 4L10.0654 0Z" fill="white"></path> </svg>  -->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="main_hero_animation">
+                        <img src="Assert/images/hero_main.png" class="img_fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start box Section -->
+    <div class="kafelki">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="kafelki_container">
+                        <div class="kafelki_item wow fadeInUp" style="animation-duration: 2s;">
+                            <div class="kafelki_number_container">
+                                <img src="Assert/images/Student.png" alt="">
+                            </div>
+                            <div class="kafelki_name">Limited Students Batch</div>
+                        </div>
+                        <div class="kafelki_item wow fadeInUp" style="animation-duration: 2s;">
+                            <div class="kafelki_number_container">
+                                <img src="Assert/images/Lecturer.png" alt="">
+                            </div>
+                            <div class="kafelki_name">Highly Qualified Lecturer</div>
+                        </div>
+                        <div class="kafelki_item wow fadeInUp" style="animation-duration: 2s;">
+                            <div class="kafelki_number_container">
+                                <img src="Assert/images/Live_Video.png" alt="">
+                            </div>
+                            <div class="kafelki_name">Implement Live Projects</div>
+                        </div>
+                        <div class="kafelki_item wow fadeInUp" style="animation-duration: 2s;">
+                            <div class="kafelki_number_container">
+                                <img src="Assert/images/Learning.png" alt="">
+                            </div>
+                            <div class="kafelki_name">Job Oriented Training</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End box Section -->
+
+    <section class="container">
+        <div class="border_bottam"></div>
+        <div class="beyond_text">
+            <h2 class="boundaries_text" data-aos="fade-up" data-aos-delay="100">Beyond Boundaries.</h2>
+            <h2 class="enrollments_text" data-aos="fade-up" data-aos-delay="100">200+ Enrollments And
+                Counting</h2>
+            <p class="wow fadeInUp" style="animation-duration: 2s;">A Team Of Certified And Seasoned
+                Trainers, Offering Industry Insights And
+                Best Practices In The Classroom.
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="best_training">
+                <div class="best_it_img" data-aos="fade-up">
+                    <img class="best_it_imgaes" src="Assert/images/best_it_img.png" alt="">
+                </div>
+                <div class="best_training_background" data-aos="fade-up">
+                    <p class="best_text" data-aos="fade-up">Embark on your certification journey in IT fundamentals
+                        starting today.</p>
+                    <h4 class="best_text_big" data-aos="fade-up">Join the Best IT Training Institute and Start Learning
+                        </h3>
+                        <p class="best_text" data-aos="fade-up">IT Training Center in Surat will provide the best
+                            coaching in the </p>
+                        <p class="best_text" data-aos="fade-up">town that will enable you to work with major
+                            organizations and earn. </p>
+                        <div class="best_text_space">
+                            <p class="best_text" data-aos="fade-up">This is true. TransVipo tech academy gives
+                                industry-specific IT training.
+                            </p>
+                            <p class="best_text" data-aos="fade-up">Our students are assured that they will obtain the
+                                best chance to discover their technical information and knowledge.</p>
+                        </div>
+                        <p class="best_text" data-aos="fade-up">Consequently, you can start earning from the onset of
+                            your career. Our students
+                            receive exceptional platforms tailored to their skills, academic background, and
+                            professional experience, facilitating their success in the industry.</p>
+                        <div class="best_training_btn" data-aos="fade-up">
+                            <a class="best_btn" href="">
+                                Join Our Institute Now
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="coaching_center">
+            <h4 data-aos="fade-up" data-aos-delay="100">
+                Enroll In Our Coaching Center To Gain Comprehensive Understanding And Hands-On
+                Expertise That Will Propel Your Career To New Heights.</h4>
+            <div class="coaching_center_btn" data-aos="fade-up" data-aos-delay="100">
+                <a class="coaching_btn" href="">
+                    <button>Secure Your Spot</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="acquire_it">
+                <p data-aos="fade-up" data-aos-delay="100">Discover Software Engineering, Web Design, And Premier IT
+                    Courses Designed For Enthusiastic Tech Learners.</p>
+                <h2 data-aos="fade-up" data-aos-delay="100">Acquire IT Skills From Seasoned Industry Professionals.</h2>
+            </div>
+            <div class="business_solution_card">
+                <div class="business_card">
+                    <ul>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/Photoshop-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Photoshop</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/figma-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Figma</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/angular-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Angular</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/flutter-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Flutter</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/html5-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">HTML 5</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/Illustrator-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Illustrator</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/nodejs-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Node</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/php-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">PHP</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/Java-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Java</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/Apple-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">Apple</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/React-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">React</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="business_card_text">
+                                <div class="card_img">
+                                    <div class="course_card">
+                                        <img src="Assert/images/Net-box.png" alt="Businesscard_img">
+                                    </div>
+                                </div>
+                                <div class="business_text">
+                                    <h5 class="card_title">.NET</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="with_us">
+            <div class="container">
+                <p data-aos="fade-up" data-aos-delay="100">Get In Touch With Us Now</p>
+                <h3 data-aos="fade-up" data-aos-delay="100">Are You Prepared To Explore The Depths Of IT? Join Our IT
+                    Coaching Center For A Comprehensive Learning Journey, Where You'll Gain The Knowledge And Practical
+                    Skills Necessary For Success In The Real World.</h3>
+                <div class="with_us_btn">
+                    <button class="with_phone_btn" data-aos="fade-up" data-aos-delay="100">Contact via Phone</button>
+                    <button class="with_phone_btn" data-aos="fade-up" data-aos-delay="100">Contact via Email</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <section>
+        <div class="select_plan_img">
+            <div class="container select_career">
+                <h4 data-aos="fade-up" data-aos-delay="100">Select The Plan That Matches Your Career Goals</h4>
+                <div class="select_career_input" data-aos="fade-up" data-aos-delay="100">
+                    <input type="text" id="name_two" name="name" class="form-control" placeholder="Your name" required>
+                </div>
+                <div class="select_career_input">
+                    <div class="select_career_flex">
+                        <input data-aos="fade-up" data-aos-delay="100" type="email" id="email_two" name="name"
+                            class="form-control" placeholder="Your mail id" required>
+                        <input type="number" id="phone_two" name="phone_two" class="form-control" autocomplete="off"
+                            onkeypress="return number(event)" placeholder="Your Phone Number" required="">
+                    </div>
+                    <p id="valid_number"></p>
+                </div>
+                <div class="select_career_input" data-aos="fade-up" data-aos-delay="100">
+                    <textarea class="form-control" id="message_two" name="message" rows="6" placeholder="Your message"
+                        required></textarea>
+                </div>
+                <div class="select_career_input" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                        <select id="select_two" name="select_two">
+                            <option data-display="Select course">Select course</option>
+                            <option value="React JS Course">React JS Course</option>
+                            <option value="Node JS Course">Node JS Course</option>
+                            <option value="Web design course">Web design course</option>
+                            <option value="Data science and Ai">Data science and Ai</option>
+                            <option value="Cybersecurity course">Cybersecurity course</option>
+                            <option value="UI UX course">UI UX course</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="select_career_btn" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#0">
+                        <button type="button" onclick="sendPlanEmail()">Enroll Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="silder_bg">
+            <div class="container">
+                <div class="leistungen_slider">
+                    <div class="leistungen_banner">
+                        <div id="leistungen_slider" class="owl-carousel owl-theme">
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="slider_box">
+                                    <div class="slider_box_img">
+                                        <div class="img_round_border">
+                                            <div class="slider_box_1  border_1">
+                                                <img class="person_img" src="Assert/images/silder_person_1.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="slider_box_text">
+                                            <div class="slider_title_text">
+                                                <p>I extend my sincere gratitude to TransVipo tech academy for the
+                                                    exceptional ReactJS training. It was truly a valuable learning
+                                                    experience. The expert developers provided invaluable guidance,
+                                                    offering practical day-to-day tasks and real-time examples. Overall,
+                                                    my time at TransVipo tech academy was immensely rewarding.
+                                                     </p>
+                                                <h4>Kirtan Desai</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="slider_box">
+                                    <div class="slider_box_img">
+                                        <div class="img_round_border">
+                                            <div class="slider_box_1  border_1">
+                                                <img class="person_img" src="Assert/images/silder_person_2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="slider_box_text">
+                                            <div class="slider_title_text">
+                                                <p>One of the best opportunity i have got to grow my career and explore
+                                                    my path in my life that I consider is to be a part of our Shiv Tech
+                                                    Institute. I am practicing the training period as a web designer in
+                                                    which my mentor Mr. Ravi Virani, and all my batch members have
+                                                    guided me on which things are essential to prepare a particular web
+                                                    page. With their suggestions and knowledge, I have the ability to
+                                                    make a webpage more attractive and responsive</p>
+                                                <h4>Vraj Amipara</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="slider_box">
+                                    <div class="slider_box_img">
+                                        <div class="img_round_border">
+                                            <div class="slider_box_1  border_1">
+                                                <img class="person_img" src="Assert/images/silder_person_4.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="slider_box_text">
+                                            <div class="slider_title_text">
+                                                <p>The instructors at TransVipo Tech Academy have been exceptionally
+                                                    supportive throughout my training. I found the development training
+                                                    provided by the IT training center in Sutat to be satisfactory
+                                                    overall. The team at TransVipo Tech Academy was consistently
+                                                    available and cooperative in their teaching approach, which I deeply
+                                                    appreciated. I am particularly grateful for the effective skills and
+                                                    teaching methods employed by this institute.
+                                                </p>
+                                                <h4>Vivek Kumbhani</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="slider_box">
+                                    <div class="slider_box_img">
+                                        <div class="img_round_border">
+                                            <div class="slider_box_1  border_1">
+                                                <img class="person_img" src="Assert/images/silder_person_3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="slider_box_text">
+                                            <div class="slider_title_text">
+                                                <p>I successfully completed my training at TransVipo Tech Academy in an
+                                                    accelerated period of just 3 months. During this intensive training,
+                                                    I acquired comprehensive technical skills and made the transition to
+                                                    becoming a Junior React Native Developer. My journey into the realm
+                                                    of Information Technology commenced at TransVipo Technolabs, under
+                                                    the mentorship of where I was presented with abundant opportunities
+                                                    for personal and professional growth. Embracing these opportunities
+                                                    wholeheartedly, I progressed to an advanced level in mobile
+                                                    application development.
+                                                </p>
+                                                <h4>Abhishek Vithani</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="gallery">
+        <div class="container">
+            <h3 class="gallery_text" data-aos="fade-up" data-aos-delay="100">Are You Ready To Delve Into The World Of
+                IT? Our IT Coaching Center Provides A Holistic Learning Experience.</h3>
+            <div class="gallery_cards">
+                <div class="gallery_inner">
+                    <ul>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_1.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_2.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_3.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_4.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_5.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_6.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_7.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_8.png" alt="">
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="gallery_inner_text">
+                                <img src="Assert/images/gallery_9.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog_card">
+        <div class="container">
+            <div class="blog_title">
+                <h3 data-aos="fade-up" data-aos-delay="100">Newest Blog Post Authored By Experts</h3>
+                <a class="blog_link" data-aos="fade-up" data-aos-delay="100" href="#0">ALL ARTICLES</a>
+            </div>
+            <div class="gallery_cards">
+                <div class="gallery_inner">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <div class="blog_inner_text">
+                                <img src="Assert/images/trance_vipo_blog_1.png" class="blog_card_img" alt="">
+                                <div class="blog_detalis">
+                                    <h5>How can a beginner's Node.js crash course enhance your career prospects?</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut</p>
+                                    <div class="blog_inner_link">
+                                        <a href="#0" class="arrow_btn">
+                                            Continue Reading
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up">
+                            <div class="blog_inner_text">
+                                <img src="Assert/images/trance_vipo_blog_2.png" class="blog_card_img" alt="">
+                                <div class="blog_detalis">
+                                    <h5>Python: Elevate Your Career with an In-Demand IT Course</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut</p>
+                                    <div class="blog_inner_link">
+                                        <a href="#0" class="arrow_btn">
+                                            Continue Reading
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up">
+                            <div class="blog_inner_text">
+                                <img src="Assert/images/trance_vipo_benner _3.png" class="blog_card_img" alt="">
+                                <div class="blog_detalis">
+                                    <h5>Elevate your career growth by mastering sgopify at transVipo tech academy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut</p>
+                                    <div class="blog_inner_link">
+                                        <a href="#0" class="arrow_btn">
+                                            Continue Reading
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact_background">
+            <div class="container">
+                <div class="map_form">
+                    <div class="map_bg" data-aos="fade-up">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.8386097921216!2d72.88554337600243!3d21.23824748054903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b85f9dd4c092aa7%3A0x848f6ed51a191ad8!2sTranscode%20Solution!5e0!3m2!1sen!2sin!4v1711712327329!5m2!1sen!2sin"
+                            style="border-radius:20px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="form_bg" data-aos="fade-up">
+                        <p>Please Request A Call Back, And We'll Be Sure To Reach Out To You Promptly.</p>
+                        <h3>Embark On Your Journey To IT Excellence Today By Enrolling Now!</h3>
+                        <div class="select_career_input">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your name"
+                                required>
+                        </div>
+                        <div class="select_career_input">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your mail id"
+                                required>
+                        </div>
+                        <div class="select_career_input">
+                            <input type="number" id="phone" name="phone" class="form-control" autocomplete="off"
+                                onkeypress="return hey(event)" placeholder="Your Phone Number" required>
+                            <p id="valid_number"></p>
+                        </div>
+                        <div class="select_career_input">
+                            <textarea class="form-control" id="message" name="message" rows="6"
+                                placeholder="Your message" required></textarea>
+                        </div>
+                        <div class="select_career_input">
+                            <div class="box">
+                                <select id="select" name="select">
+                                    <option data-display="Select course">Select course</option>
+                                    <option value="React JS Course">React JS Course</option>
+                                    <option value="Node JS Course">Node JS Course</option>
+                                    <option value="Web design course">Web design course</option>
+                                    <option value="Data science and Ai">Data science and Ai</option>
+                                    <option value="Cybersecurity course">Cybersecurity course</option>
+                                    <option value="UI UX course">UI UX course</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="contact_btn">
+                            <button type="button" onclick="sendEmail()">Enroll Now</button>
+                        </div>
+                        <p class="form_last_text">Our commitment is to ensure the protection of your privacy; hence, we
+                            will never collect any information about you without your explicit consent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_bg">
+        <div class="container">
+            <div class="footer_trans_vipo">
+                <div class="contact_part">
+                    <h4 class="footer_title" data-aos="fade-up">Contact</h4>
+                    <div class="contact_flex">
+                        <div class="foooter_inner_data" data-aos="fade-up">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <address>301, Ambika Pinnacle, beside Lajamni Chowk, Maruti Dham Society, digital valley
+                                (Mota Varachha) , Surat, Gujarat 394101</address>
+                        </div>
+                        <div class="foooter_inner_data" data-aos="fade-up">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+91 9512498337</p>
+                        </div>
+                        <div class="foooter_inner_data" data-aos="fade-up">
+                            <a href="" class="email_link">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>transvipotechacademy@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_part">
+                    <h4 class="footer_title" data-aos="fade-up">Quick Links</h4>
+                    <div class="quick_links_text">
+                        <a href="" data-aos="fade-up">
+                            Home
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            About Transcode
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            Services
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            Insight
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            Client Portfolio
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_part">
+                    <h4 class="footer_title" data-aos="fade-up">Popular Courses</h4>
+                    <div class="quick_links_text">
+                        <a href="" data-aos="fade-up">
+                            <p>React JS Course</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Node JS Course</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Web design course</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Data science and Ai</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Cybersecurity course</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>UI UX course</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_part">
+                    <h4 class="footer_title" data-aos="fade-up">Resource</h4>
+                    <div class="quick_links_text">
+                        <a href="" data-aos="fade-up">
+                            <p>Careers</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Our Work Culture</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Our Mission Story</p>
+                        </a>
+                        <a href="" data-aos="fade-up">
+                            <p>Site Map</p>
+                        </a>
+                    </div>
+                    <div class="footer_icon" data-aos="fade-up">
+                        <i class="fa-brands fa-square-facebook footer"></i>
+                        <i class="fa-brands fa-square-x-twitter footer"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <i class="fa-brands fa-square-instagram footer"></i>
+                    </div>
+                </div>
+            </div>
+            <img src="Assert/images/footer_logo.png" class="footer_logo" alt="" data-aos="fade-up">
+            <div class="footer_line"></div>
+            <p class="reserved_text">© 2024 All Rights Reserved - TransVipo tech academy.com</p>
+        </div>
+    </footer>
+
+
+    <script src="Assert/javascript/jquery.js"></script>
+    <script src="Assert/javascript/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script src="Assert/javascript/aos.js"></script>
+
+    <script src="Assert/javascript/owl.carousel.js"></script>
+    <script src="Assert/javascript/owl.carousel.min.js"></script>
+    <script src="Assert/javascript/jquery.nice-select.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script src="/Assert/javascript/custom.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "2ksoCkFjtQu3oIMVt",
+            });
+        })();
+    </script>
+
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "timeOut": "1000" // Set default timeout for Toastr messages
+        }
+
+        function sendEmail() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var phone = document.getElementById("phone").value;
+            var select = document.getElementById("select").value;
+
+            // Check if any field is empty
+            if (name.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "" || select === "Select course") {
+                toastr.error('Please fill in all fields.');
+                return; // Exit function if any field is empty
+            }
+
+            // Check phone number validation
+            if (!validatePhoneNumber(phone)) {
+                return;
+            }
+
+            var templateParams = {
+                from_name: name,
+                email_id: email,
+                message: message,
+                phone: phone,
+                select: select
+            };
+
+            emailjs.send("service_getyul6", "template_5nu9nvo", templateParams)
+                .then(function (response) {
+                    console.log("Email sent successfully:", response);
+                    toastr.success('Email sent successfully!');
+                    clearFormFields();
+                })
+                .catch(function (error) {
+                    console.error("Error sending email:", error);
+                    toastr.error('Error sending email. Please try again later.');
+                });
+        }
+
+        function clearFormFields() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("select").value = "Select course";
+        }
+
+        function hey(event) {
+            var key = event.keyCode || event.which; // Get the keyCode of the pressed key
+            var mobile = document.getElementById('phone');
+
+            if (!(key == 8 || key == 10 || (key >= 48 && key <= 57))) {
+                document.getElementById("valid_number").innerHTML = "Enter a valid number";
+                return false;
+            } else {
+                if (mobile.value.length < 11) {
+                    document.getElementById("valid_number").innerHTML = "";
+                    return true;
+                } else {
+                    document.getElementById("valid_number").innerHTML = "Enter a valid number";
+                    return false;
+                }
+            }
+        }
+
+        function clearError() {
+            document.getElementById("valid_number").innerHTML = "";
+        }
+
+        document.getElementById('phone').addEventListener('input', clearError);
+
+        function validatePhoneNumber(phone) {
+            var phoneNumberPattern = /^\d{10}$/;
+            if (!phoneNumberPattern.test(phone)) {
+                toastr.error('Enter a valid 10-digit phone number');
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <script>
+        //****************************************************** Select The Plan *************************************************************
+
+        function sendPlanEmail() {
+            var name = document.getElementById("name_two").value;
+            var email = document.getElementById("email_two").value;
+            var message = document.getElementById("message_two").value;
+            var phone = document.getElementById("phone_two").value;
+            var select = document.getElementById("select_two").value;
+
+            // Check if any field is empty
+            if (name.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "" || select === "Select course") {
+                toastr.error('Please fill in all fields.');
+                return; // Exit function if any field is empty
+            }
+
+            // Check phone number validation
+            if (!validatePhoneNumber(phone)) {
+                return;
+            }
+
+            var templateParams = {
+                from_name: name,
+                email_id: email,
+                message: message,
+                phone: phone,
+                select: select
+            };
+
+            emailjs.send("service_getyul6", "template_5nu9nvo", templateParams)
+                .then(function (response) {
+                    console.log("Email sent successfully:", response);
+                    toastr.success('Email sent successfully!');
+                    clearFormFields();
+                })
+                .catch(function (error) {
+                    console.error("Error sending email:", error);
+                    toastr.error('Error sending email. Please try again later.');
+                });
+        }
+
+        function clearFormFields() {
+            document.getElementById("name_two").value = "";
+            document.getElementById("email_two").value = "";
+            document.getElementById("message_two").value = "";
+            document.getElementById("phone_two").value = "";
+            document.getElementById("select_two").value = "Select course";
+        }
+
+        function checkFormSubmission(event) {
+            if (event.keyCode === 13) { // Check if Enter key is pressed
+                var name = document.getElementById("name_two").value;
+                var email = document.getElementById("email_two").value;
+                var message = document.getElementById("message_two").value;
+                var phone = document.getElementById("phone_two").value;
+                var select = document.getElementById("select_two").value;
+
+                // Check if any field is empty
+                if (name.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "" || select === "Select course") {
+                    toastr.error('Please fill in all fields.');
+                }
+            }
+        }
+
+        function number(event) {
+            var key = event.keyCode || event.which; // Get the keyCode of the pressed key
+            var mobile = document.getElementById('phone_two');
+
+            if (!(key == 8 || key == 10 || (key >= 48 && key <= 57))) {
+                document.getElementById("valid_number").innerHTML = "Enter a valid number";
+                return false;
+            } else {
+                if (mobile.value.length < 11) {
+                    document.getElementById("valid_number").innerHTML = "";
+                    return true;
+                } else {
+                    document.getElementById("valid_number").innerHTML = "Enter a valid number";
+                    return false;
+                }
+            }
+        }
+
+        function clearError() {
+            document.getElementById("valid_number").innerHTML = "";
+        }
+
+        document.getElementById('phone_two').addEventListener('input', clearError);
+
+        function validatePhoneNumber(phone) {
+            var phoneNumberPattern = /^\d{10}$/;
+            if (!phoneNumberPattern.test(phone)) {
+                toastr.error('Enter a valid 10-digit phone number');
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('select:not(.ignore)').niceSelect();
+            FastClick.attach(document.body);
+        });    
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $('#leistungen_slider').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: ['<span class="fa-stack"><i class="fa-solid fa-arrow-left">',
+                '</i><i class="fa-solid fa-arrow-right"></i></span>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                575: {
+                    items: 1
+                },
+                767: {
+                    items: 1
+                },
+                991: {
+                    items: 1
+                },
+                1199: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

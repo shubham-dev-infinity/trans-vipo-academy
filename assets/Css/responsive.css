@@ -948,7 +948,7 @@
 
     div#swiper-wrapper,
     .responsive_width {
-        transform: translate(0%, 7%) !important;
+        transform: translate(-1%, 7%) !important;
     }
 
     .sticky-chat {

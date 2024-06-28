@@ -287,3 +287,13 @@ $('[data-fancybox="gallery"]').fancybox({
   loop: false,
   protect: true
 });
+
+// --------------------------------- AOS
+document.addEventListener("DOMContentLoaded", function () {
+  AOS.init({
+    duration: 6000,
+    easing: "ease",
+    mirror: true,
+    //  once: true,
+  });
+});

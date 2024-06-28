@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
 @media (min-width:1440px) {
     .container {
         max-width: 1470px;
@@ -27,6 +36,35 @@
         width: 135px;
         top: 64%;
         left: 9%;
+    }
+    .ux_designer_img {
+        width: 690px;
+    }
+    .arrow{
+        width: 371px;
+        height: 271px;
+    }
+    .master_arrow {
+        right: -26.3%;
+        bottom: -75.5%;
+        width: 371px;
+        height: 311px;
+    }
+    .prepare_box {
+        padding-top: 120px;
+    }
+    .grow_arrow {
+        right: -26.8%;
+        bottom: -82.5%;
+        width: 379px;
+        height: 279px;
+    }
+    .idea_arrow,.boost_arrow {
+        width: 340px;
+    }
+    .stay_ahead_text {
+        width: 1000px;
+        line-height: 36px;
     }
 }
 
@@ -62,6 +100,122 @@
     .navbar a,
     .navbar a:focus {
         font-size: 17px;
+    }
+    .market_num {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .crucial_ux_title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .ui_ux_course {
+        padding: 90px 0 50px 0;
+    }
+    .crucial_ux_title {
+        width: 570px;
+    }
+    .learn_inner_box p {
+        font-size: 22px;
+    }
+    .overview_inner_text h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .overview_inner_text p,.learning_text p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .overview_list::marker {
+        font-size: 40px;
+    }
+    .overview_list {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .overview_text {
+        width: 54%;
+    }
+    .ux_designer_shanmugavelan h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .learning_text {
+        width: 36%;
+    }
+    .main_overview {
+        margin: 40px 0 0 37px;
+    }
+    .learning_title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .learn_inner_box h5 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .arrow {
+        right: -2.9%;
+        bottom: -77.5%;
+        width: 300px;
+    }
+    .master_arrow {
+        right: -26.3%;
+        bottom: -67.9%;
+        width: 294px;
+        height: 281px;
+    }
+    .grow_arrow {
+        right: -26.8%;
+        bottom: -85.5%;
+        width: 297px;
+        height: 279px;
+    }
+    .master_box,.build_box,.prepare_box {
+        padding-top: 100px;
+    }
+    .offline_box {
+        height: auto;
+    }
+    .stay_ai,.about_gallery,.expert_team,.about_ux {
+        padding: 80px 15px 0 15px !important;
+    }
+    .contact_about {
+        padding: 80px 0 0 0;
+    }
+    .stay_ahead_box h5, .stay_curve_box h5 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .stay_ahead_box {
+        padding: 40px;
+    }
+    .stay_ahead_box p, .stay_curve_box p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .stay_arrow {
+        bottom: -114.5%;
+    }
+    .boost_arrow {
+        right: -49.3%;
+        bottom: -90.1%;
+    }
+    .idea_arrow {
+        right: -76.1%;
+        bottom: -102.5%;
+    }
+    .expert_detalis {
+        padding: 25px 30px 25px 30px;
+    }
+    .expert_skill_text {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .expert_skill {
+        height: 100%;
     }
 }
 
@@ -318,6 +472,16 @@
     .topbar {
         display: none !important;
     }
+    .assume_questions h5 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .about_ux {
+        padding: 50px 15px 0px 15px;
+    }
+    .crucial_ux_market {
+        padding-top: 60px;
+    }
 }
 
 @media (max-width:1199px) {
@@ -408,6 +572,86 @@
 
     .chat-menu:checked+.sticky-button+.sticky-chat {
         right: 20px;
+    }
+    .market_box {
+        padding: 24px 55px 15px 55px;
+        margin: 0 15px 45px 0;
+    }
+    .about_ux {
+        padding: 60px 15px 30px 15px;
+    }
+    .crucial_ux_title {
+        width: 450px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .arrow {
+        right: -2.3%;
+        bottom: -68.9%;
+        width: 250px;
+    }
+    .master_arrow {
+        right: -26.9%;
+        bottom: -74.9%;
+        width: 250px;
+        height: 259px;
+    }
+    .grow_arrow {
+        right: -26.8%;
+        bottom: -70.5%;
+        width: 250px;
+    }
+    .learn_inner_box h5 {
+        line-height: 40px;
+    }
+    .learn_inner_box p {
+        line-height: 33px;
+    }
+    .offline_inner_text h4 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .offline_inner_text {
+        padding: 25px;
+    }
+    .offline_inner_text p {
+        line-height: 35px;
+    }
+    .offline_title {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .offline_text {
+        font-size: 21px;
+        line-height: 33px;
+        padding: 0px 0px;
+        margin-bottom: 40px;
+    }
+    .stay_ahead_title {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    .stay_arrow {
+        bottom: -94.5%;
+        width: 300px;
+        height: 261px;
+    }
+    .idea_arrow {
+        right: -96.1%;
+        bottom: -88.5%;
+    }
+    .boost_arrow {
+        right: -65.3%;
+        bottom: -78.1%;
+    }
+    .stay_ahead_box {
+        padding: 40px;
+        border-radius: 0px 50px 50px 0px;
+    }
+    .stay_curve_box {
+        padding: 40px;
+        border-radius: 50px 0px 0px 50px;
     }
 }
 
@@ -576,7 +820,142 @@
         top: 60%;
         right: 8%;
     }
-
+    .about_ux {
+        padding: 85px 15px 30px 15px;
+    }
+    .crucial_ux {
+        flex-direction: column;
+    }
+    .crucial_ux_box {
+        width: 50%;
+    }
+    .crucial_ux_title {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .crucial_ux_market {
+        padding-top: 70px;
+    }
+    .crucial_ux_market {
+        flex-direction: column-reverse;
+    }
+    .market_box {
+        text-align: center;
+        padding: 24px 90px 15px 90px;   
+        margin: 0 0px 45px 0;
+    }
+    .market_num {
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .ux_market_box{
+        margin: 0 auto;
+    }
+    .crucial_ux_market_text {
+        width: 100%;
+    }
+    .graph_ux {
+        padding: 50px 15px 0 15px;
+    }
+    .ui_ux_course {
+        padding: 70px 0 50px 0;
+    }
+    .ux_design_box {
+        padding: 35px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .overview_text,.learning_text {
+        width: 100%;
+    }
+    .ux_pro,.dream_job {
+        padding: 80px 15px 0 15px;
+    }
+    .learn_ui_text {
+        margin-top: 50px;
+        line-height: 35px;
+    }
+    .shanmugavelan {
+        padding: 80px 0 0 0;
+    }
+    .ux_designer {
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ux_profile_img ,.ux_designer_shanmugavelan{
+        width: 100%;
+        text-align: center;
+    }
+    .geek_lab {
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .learn_box ,.master_box{
+        flex-direction: column;
+    }
+    .learn_inner_box,.line_arrow,.stay_ahead_box,.stay_curve_box {
+        width: 100%;
+    }
+    .mobile_line_arrow{
+        display: flex;
+    }
+    .arrow,.master_arrow,.grow_arrow,.stay_arrow,.boost_arrow,.idea_arrow{
+        display: none;
+    }
+    .master_box, .build_box, .prepare_box {
+        padding-top: 0px;
+    }
+    .offline_inner_text p {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .offline_inner_text {
+        padding: 18px 10px 18px 10px;
+    }
+    .offline_inner_text h4 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .offline_title {
+        font-size: 40px;
+        line-height: 20px;
+        margin-bottom: 35px;
+    }
+    .offline_text {
+        font-size: 20px;
+        line-height: 33px;
+        margin-bottom: 50px;
+        padding: 0 0px;
+    }
+    .stay_ahead_text {
+        width: auto;
+        line-height: 33px;
+        font-size: 20px;
+    }
+    .generation_box,.effective_box {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .future_box {
+        padding: 0px 0 20px 0;
+    }
+    .assume_you_title {
+        line-height: 50px;
+    }
+    .about_title_contact {
+        font-size: 40px;
+        line-height: 29px;
+    }
+    .about_contact_text2 {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    .expert_skill {
+        padding: 0 40px;
+    }
 }
 
 @media (max-width:767px) {
@@ -706,6 +1085,38 @@
     .gallery_inner_text i.fa.fa-search-plus {
         font-size: 20px;
     }
+    .crucial_ux_box {
+        width: fit-content;
+    }
+    .overview_inner_text h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .overview_inner_text p, .learning_text p {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .overview_list::marker {
+        font-size: 28px;
+    }
+    .overview_list {
+        font-size: 20px;
+    }
+    .main_overview {
+        margin: 30px 0 0 26px;
+    }
+    .learning_title {
+        font-size: 30px;
+    }
+    .ux_designer_shanmugavelan h2 {
+        font-size: 30px;
+    }
+    .learn_inner_box {
+        padding: 30px;
+    }
+    .offline_edge {
+        padding: 80px 15px 0 15px;
+    }
 }
 
 @media (max-width:575px) {
@@ -825,6 +1236,62 @@
     .select_form_text h4 {
         font-size: 28px;
     }
+    .about_ux {
+        padding: 50px 15px 30px 15px;
+    }
+    .crucial_ux_box_text {
+        width: 185px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .crucial_ux_box {
+        padding: 20px 50px 21px 40px;
+    }
+    .mobile_none_arrow ,.mobile_fill_arrow{
+        height: 115px;
+    }
+    .mobile_fill_arrow:after {
+        top: 35px;
+    }
+    .offline_title {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
+    .offline_text {
+        line-height: 29px;
+        margin-bottom: 28px;
+    }
+    .stay_ahead_title {
+        font-size: 33px;
+        line-height: 41px;
+        margin-bottom: 20px;
+    }
+    .practitioners_boxes {
+        padding: 50px 0 0 0;
+    }
+    .assume_you_title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .assume_you {
+        padding: 80px 10px 0 10px !important;
+    }
+    .assume_questions h5 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .assume_questions {
+        padding: 20px 20px;
+        border-radius: 12px;
+    }
+    .about_title_contact {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    .about_contact_text2 {
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
 }
 
 @media (max-width:450px) {
@@ -932,6 +1399,175 @@
     .responsive_width {
         transform: translate(10%, 7%) !important;
     }
+    .market_box {
+        padding: 24px 40px 15px 40px;
+        margin: 0 0px 40px 0;
+    }
+    .crucial_ux_market {
+        padding-top: 55px;
+    }
+    .market_num {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .market_box p {
+        font-size: 20px;
+    }
+    .ux_market_text {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .graph_ux p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .graph_ux_title {
+        margin: 40px 0 30px 0;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .modules_text {
+        width: 176px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .ui_course {
+        padding: 20px 50px;
+    }
+    .ui_pro_text {
+        width: fit-content;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .learn_ui_text {
+        margin-top: 35px;
+        line-height: 34px;
+        font-size: 20px;
+    }
+    .shanmugavelan {
+        padding: 60px 0 0 0;
+    }
+    .ux_designer_shanmugavelan h2 {
+        font-size: 25px;
+    }
+    .ux_designer_shanmugavelan p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .geek_lab {
+        margin-top: 20px;
+        gap: 30px;
+    }
+    .ux_designer {
+        padding: 30px;
+    }
+    .dream_job_text {
+        width: fit-content;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .practitioners_boxes {
+        padding: 60px 0 0 0;
+    }
+    .learn_inner_box h5 {
+        font-size: 22px;
+        margin-bottom: 12px;
+        line-height: 28px;
+    }
+    .learn_inner_box p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .modules_text,.ui_pro_text,.dream_job_text {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .mobile_none_arrow, .mobile_fill_arrow {
+        height: 90px;
+    }
+    .learn_inner_box {
+        border-radius: 25px;
+    }
+    .mobile_fill_arrow:after {
+        top: 30px;
+    }
+    .offline_text {
+        font-size: 18px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+    .offline_inner_text h4 {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .offline_title {
+        font-size: 30px;
+    }
+    .offline_inner_text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .offline_inner_text {
+        padding: 15px 5px 0px 5px;
+    }
+    .stay_ahead_title {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .stay_ahead_text {
+        line-height: 27px;
+        font-size: 18px;
+    }
+    .stay_ahead_box,.stay_curve_box {
+        padding: 30px;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .stay_ahead_box p, .stay_curve_box p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .stay_ahead_box h5, .stay_curve_box h5 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .assume_you {
+        padding: 50px 10px 0 10px !important;
+    }
+    .stay_ai {
+        padding: 50px 15px 0 15px !important;
+    }
+    .about_gallery {
+        padding: 100px 0 0 0 !important;
+    }
+    .assume_you_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .assume_questions h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .assume_questions {
+        padding: 15px 15px;
+    }
+    .about_title_contact {
+        font-size: 30px;
+    }
+    .expert_skill {
+        display: none;
+    }
+    .expert_text_none{
+        display: block;
+    }
+    .about_gallery {
+        padding: 70px 0 0 0 !important;
+    }
+    .stay_ai, .about_gallery, .expert_team, .about_ux {
+        padding: 60px 10px 0 10px !important;
+    }
 }
 
 @media (max-width:375px) {
@@ -959,7 +1595,54 @@
         width: 45px;
         height: 40px;
     }
-
+    .crucial_ux_box_text {
+        width: auto;
+    }
+    .about_ux {
+        padding: 35px 15px 30px 15px;
+    }
+    .crucial_ux_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .overview_inner_text h2,.learning_title {
+        font-size: 25px;
+        line-height: 31px;
+        margin-bottom: 12px;
+    }
+    .graph_ux p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .ux_design_box {
+        padding: 29px;
+        border-radius:25px
+    }
+    .overview_list {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .overview_list::marker {
+        font-size: 22px;
+    }
+    .Rectangle_fill {
+        width: 14px;
+        height: 60px;
+    }
+    .main_overview {
+        margin: 20px 0 0 26px;
+    }
+    .geek_lab {
+        gap: 7px;
+        flex-direction: column;
+    }
+    .ux_designer_shanmugavelan p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .mobile_none_arrow, .mobile_fill_arrow {
+        height: 85px;
+    }
 }
 
 @media (max-width:350px) {

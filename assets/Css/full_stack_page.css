@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#common-form {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+  #common-form {
+    margin-top: 60px;
+  }
+}

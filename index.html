@@ -34,6 +34,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/Css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/Css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/Css/owl.theme.default.min.css">
@@ -58,11 +60,9 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-
 </head>
 
 <body>
-
     <div id="pre-loader">
         <div class="pre-loader">
             <span></span>
@@ -108,19 +108,39 @@
 
     <!-- Start Header -->
     <header id="header" class="header d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container overflow-visible d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/images/logo 3.png" alt="">
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="#packageplan">Package Plan</a></li>
+                    <li><a href="ittraning.html">About us</a></li>
+                    <li><a href="course_detail.html">Package Plan</a></li>
                     <li><a href="#gallery_img">Gallery</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="team-page.html">Team</a></li>
+                    <li><a href="blog_page.html">Blog</a></li>
+                    <li class="dropdown-menu-list">
+
+                            <a href="#" class="desktop-link dropdown-linkk">Courses 
+                                 <i class="fa-solid fa-plus plus-icon"></i>  <i class="fa-solid fa-minus minus-icon"></i>
+                                </a>
+                       
+                        <ul class="dropdown-menu-nav">
+                          <li class="dropdown-link"><a href="android_devlopement.html" class="dropdown-link-a">Android</a></li>
+                          <li class="dropdown-link"><a href="react_native.html" class="dropdown-link-a">React Natiue</a></li>
+                          <li class="dropdown-link"><a href="flutter_dev.html" class="dropdown-link-a">Flutter Deployment</a></li>
+                          <li class="dropdown-link"><a href="web_development.html" class="dropdown-link-a">Web Deployment</a></li>
+                          <li class="dropdown-link"><a href="full_stack_page.html" class="dropdown-link-a">Full Stack Deployment </a></li>
+                          <li class="dropdown-link"><a href="AR_VR_page.html" class="dropdown-link-a">AR / VR Deployment</a></li>
+                          <li class="dropdown-link"><a href="AI_ML_page.html" class="dropdown-link-a">AI / ML</a></li>
+                          <li class="dropdown-link"><a href="web_design.html" class="dropdown-link-a">Web Design</a></li>
+                          <li class="dropdown-link"><a href="UI_UX.html" class="dropdown-link-a">UI / UX Design</a></li>
+                          <li class="dropdown-link"><a href="graphic_design.html" class="dropdown-link-a">Graphics Design</a></li>
+                          <li class="dropdown-link"><a href="video_editing.html" class="dropdown-link-a">Video Editing</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact_us_page.html">Contact</a></li>
                     <div class="navbar_address">
                         <div class="address_icon">
                             <i class="fas fa-map-marker-alt"></i>
@@ -1045,7 +1065,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="contact_btn">
+                        <div class="contact_btn contact-form-submit-btn">
                             <button type="button" onclick="sendEmail()">Enroll Now</button>
                         </div>
                         <p class="form_last_text">Our commitment is to ensure the protection of your privacy; hence, we
@@ -1238,6 +1258,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
     <script src="assets/javascript/aos.js"></script>
+    <script src="assets/javascript/dropDown.js"> </script>
 
     <script src="assets/javascript/owl.carousel.js"></script>
     <script src="assets/javascript/owl.carousel.min.js"></script>
@@ -1248,6 +1269,7 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="assets/javascript/mobile-nav-cources-close.js"></script>
 
     <script src="/assets/javascript/custom.js"></script>
 
@@ -1485,6 +1507,8 @@
             }
         })
     </script>
+
+<script src="assets/javascript/dropDown.js"> </script>
 
 </body>
 

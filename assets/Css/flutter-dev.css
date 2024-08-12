@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.flutter-dev-content-con-heading {
+  background-color: rgb(47, 64, 79);
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  padding-block: 25px;
+  padding-inline: 100px;
+}
+
+.flutter-dev-content-con-heading h1 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 57px;
+}
+
+.flutter-good-p {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  margin-top: 40px;
+  color: #2f404f;
+  padding-inline: 20px;
+}
+
+.flutter-dev-content-con:last-child {
+  margin-left: 15px;
+}
+
+.flutter-dev-list-con {
+  margin-top: 50px;
+  padding-left: 35px;
+}
+
+.flutter-dev-list-con li {
+  margin-block: 50px;
+}
+
+.flutter-dev-list {
+  display: flex;
+}
+
+.flutter-dev-list p {
+  color: #2f404f;
+
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+}
+
+.flutter-dev-list-strong {
+  color: #2f404f;
+
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+#flutter-page-starting-list ol li p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 47px;
+  text-align: left;
+}
+
+.gallery_inner_text {
+  box-shadow: none;
+}
+
+.green-sub-list {
+  margin-bottom: 50px;
+}
+
+.green-list-con {
+  margin-top: 50px;
+}
+
+.green-list-p {
+  font-weight: 600;
+
+  color: #2f404f;
+
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.green-inner-list-strong {
+  font-weight: 600;
+
+  color: #2f404f;
+
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.green-inner-list-div p {
+  font-weight: 300;
+
+  color: #2f404f;
+
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+}
+
+.green-inner-list-con {
+  margin-top: 32px;
+  position: relative;
+
+  padding-left: 35px;
+}
+
+.single-sub-list {
+  position: relative;
+}
+
+.single-sub-list::before {
+  margin-bottom: 50px;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #26b160;
+  left: -30px;
+  top: 18px;
+  border-radius: 50%;
+}
+
+#testimonials {
+  color: #26b160;
+}
+
+.green-inner-list-con li::before {
+  content: "";
+}
+
+.green-list {
+  position: relative;
+  margin-bottom: 60px;
+  color: #2f404f;
+}
+
+.the-offline-edge-con {
+  background: #efefef;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.the-offline-heading {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 57px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.the-offline-p {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.ofline-desc-con {
+  padding-inline: 30px;
+}
+
+.list-inde .flutter-dev-list {
+  position: relative;
+}
+
+.list-inde .flutter-dev-list::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #26b160;
+  border-radius: 50%;
+  left: -30px;
+  top: 15px;
+}
+
+.flutter-dev-list-con li:last-child {
+  margin-bottom: 0;
+}
+
+.green-list-con li:last-child {
+  margin-bottom: 0;
+}
+
+.section-courses {
+  padding-block: 50px !important;
+}
+
+.contact-us-faq-list-con ol {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .flutter-dev-list-con li {
+    margin-block: 30px;
+  }
+
+  .green-sub-list {
+    margin-bottom: 30px;
+  }
+
+  .green-list {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #flutter-page-starting-list ol li p {
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #flutter-page-starting-list ol li p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .contact-us-faq-list-con h3 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+
+  .flutter-dev-content-con-heading h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .flutter-good-p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .flutter-dev-list-strong {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
+  .flutter-dev-list p {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
+  .flutter-dev-list-con li {
+    margin-block: 20px;
+  }
+
+  .flutter-dev-content-con-heading {
+    border-radius: 27px;
+    text-align: center;
+    padding-block: 15px;
+  }
+
+  .flutter-dev-list-con {
+    margin-top: 30px;
+  }
+
+  .green-list-p {
+    font-size: 26px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .the-offline-heading {
+    font-size: 25px;
+
+    line-height: 45px;
+
+    text-align: center;
+  }
+
+  .the-offline-p {
+    font-size: 19px;
+
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .green-inner-list-strong {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
+  .green-inner-list-div p {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
+  .green-list-con {
+    margin-top: 30px;
+  }
+
+  .green-inner-list-con li {
+    margin-bottom: 10px;
+  }
+
+  .green-inner-list-con {
+    margin-top: 25px;
+  }
+
+  .green-list {
+    margin-bottom: 25px;
+  }
+
+  .flutter-dev-content-con-heading {
+    padding-inline: 20px;
+  }
+
+  .single-sub-list::before {
+    top: 11px;
+  }
+
+  .list-inde .flutter-dev-list::before {
+    left: -30px;
+    top: 11px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us-faq-list-con {
+    margin-left: 0;
+  }
+
+  .flutter-good-p {
+    line-height: 40px;
+  }
+
+  .flutter-dev-list-con {
+    margin-top: 0px;
+  }
+
+  .single-sub-list::before {
+    top: 11px;
+  }
+
+  .flutter-dev-content-con-heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .section-courses {
+    padding-block: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .tesinomials-ul {
+    padding-left: 0;
+    padding-inline: 20px;
+  }
+
+  .list-inde .flutter-dev-list::before {
+    left: -25px;
+  }
+
+  .flutter-dev-list-con {
+    padding-inline: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #common-form {
+    margin-top: 60px;
+  }
+
+  .ofline-desc-con {
+    padding-inline: 0px;
+  }
+
+  .section-courses {
+    padding-block: 30px !important;
+  }
+
+  .contact-infor p {
+    font-size: 11px;
+
+    line-height: 22px;
+  }
+
+  .contact-infor img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .flutter-dev-content-con {
+    margin-top: 0px;
+  }
+
+  .flutter-dev-list-con {
+    padding-inline: 35px;
+    /* padding-right: 0; */
+  }
+
+  .flutter-good-p + .flutter-dev-list-con {
+    padding-inline: 20px !important;
+  }
+
+  .flutter-dev-content-con-heading + .flutter-good-p {
+    padding-inline: 0;
+  }
+
+  .flutter-content-hed + .flutter-dev-list-con-id {
+    padding-inline: 0;
+  }
+
+  .flutter-dev-content-con-heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .contact-us-faq-list-con h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contact-us-faq-list-con ol li {
+    font-size: 19px;
+    line-height: 26px;
+    margin-block: 25px;
+  }
+
+  .flutter-dev-content-con:last-child {
+    margin-left: 0px;
+  }
+
+  #flutter-page-starting-list ol li p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .flutter-good-p {
+    line-height: 35px;
+    font-size: 23px;
+  }
+
+  .flutter-dev-list-strong {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .flutter-dev-list p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .green-list-p {
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .green-list::before {
+    top: 7px;
+  }
+
+  .green-inner-list-div p {
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .green-inner-list-strong {
+    font-size: 20px;
+  }
+
+  .list-inde .flutter-dev-list::before {
+    top: 8px;
+  }
+
+  .the-offline-p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .the-offline-heading {
+    line-height: 35px;
+  }
+
+  .green-inner-list-strong {
+    line-height: 30px;
+  }
+
+  .single-sub-list::before {
+    top: 8px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .the-offline-edge-con {
+    padding: 17px;
+  }
+
+  .contact-us-faq-list-con ol {
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+
+  .single-sub-list::before {
+    top: 8px;
+  }
+}

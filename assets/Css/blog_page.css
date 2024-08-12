@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.ai-ml-wrapper {
+  padding-bottom: 0;
+}
+
+.ai-ml-con h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 40px;
+  color: #26b160;
+}
+
+.ai-ml-con p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.course-news-card-con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.course-news-card {
+  width: calc(50% - 25px);
+  border: 1px solid #a1a1a1;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #ececec;
+}
+
+.course-news-card-upper img {
+  min-height: 320px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.course-news-card-bottom {
+  padding: 25px 40px;
+  overflow: hidden;
+}
+
+.course-news-card-bottom h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #26b160;
+  margin-bottom: 20px;
+}
+
+.course-news-card-bottom p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.blog-page-para-con p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #2f404f;
+}
+
+#faq-heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #26b160;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.last-card-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#blog-page-last-course-news-card {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1360px) {
+}
+@media only screen and (max-width: 1280px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .ai-ml-con h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .ai-ml-con p {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  .course-news-card-bottom h2 {
+    font-size: 24px;
+
+    line-height: 39px;
+
+    margin-bottom: 15px;
+  }
+
+  .course-news-card-bottom p {
+    font-size: 20px;
+
+    line-height: 33px;
+  }
+
+  .course-news-card-bottom {
+    padding: 25px 25px;
+  }
+
+  section {
+    padding-block: 30px;
+  }
+
+  .blog-page-para-con p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #faq-heading {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .ai-ml-wrapper {
+    padding-top: 30px;
+  }
+  .ai-ml-con h2 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+  .ai-ml-con p {
+    font-size: 19px;
+    line-height: 30px;
+    /* text-align: center; */
+  }
+
+  .course-news-card-con {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .course-news-card {
+    width: 100%;
+    border: 1px solid #a1a1a1;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  .blog-page-para-con p {
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* .ai-ml-con h2 {
+    font-size: 35px;
+    line-height: 43px;
+    /* text-align: center; */
+  /* } */
+
+  /* .ai-ml-con p {
+    font-size: 21px;
+    line-height: 40px;
+  } */
+
+  .course-news-card-bottom h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .course-news-card-bottom {
+    padding-inline: 30px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .course-news-card-bottom h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .course-news-card-bottom p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 300px) {
+}

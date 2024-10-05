@@ -11,9 +11,11 @@ html {
 }
 
 .banner {
-  background: url(../images/course-detail-image/bac.jpg);
+  background: url(../images/course-detail-image/package_title.JPG);
+  background-size: cover;
+  background-size: cover;
+  background-position: right;
 }
-
 .paid-internship-con {
   padding: 40px;
   background: #efefef;

@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /*********************************************defult_css*************************************************/
 * {
   box-sizing: border-box;
@@ -1446,10 +1449,12 @@ i.fa-solid.fa-quote-right {
 .blog_detalis h5 {
   font-size: 18px;
   padding-bottom: 13px;
+  
 }
 
 .blog_detalis p {
   padding-bottom: 12px;
+  font-family: Lato;
 }
 
 .blog_inner_link .arrow_btn {

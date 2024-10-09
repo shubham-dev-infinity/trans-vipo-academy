@@ -258,7 +258,7 @@ body {
 }
 
 .banner {
-  background-image: url("../images/it_main.png");
+  background-image: url("../images/about_title.png");
   color: white;
   background-size: cover;
   background-position: center;
@@ -493,7 +493,7 @@ body {
 }
 
 .profile-card h2 {
-  font-size: 35px;
+  font-size: 29px;
   font-weight: 600;
   line-height: 40px;
   text-align: center;

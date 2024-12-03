@@ -9,9 +9,14 @@ body {
   width: 100%;
   height: 100%;
 }
-
+input {
+  background-color: transparent !important; 
+}
+input:focus {
+  background-color: transparent !important;
+}
 .contact-us-banner-con {
-  background: url(../images/team_title.JPG);
+  background: url(../images/contact_us_img.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -253,6 +258,13 @@ body {
 
 .social-links-conta:hover {
   background-color: #26b160;
+}
+
+.location-addresss a{
+  color: white;
+}
+.location-addresss a:hover{
+  color: #26b160;
 }
 
 @media only screen and (max-width: 1440px) {
